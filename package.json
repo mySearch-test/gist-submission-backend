@@ -1,12 +1,13 @@
 {
   "name": "gist-api",
-  "private": true,
-  "version": "0.0.1",
+  "private": false,
+  "version": "1.0.0",
   "description": "forward gist submission from WoT Playground in order to keep authentication private",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "node server.js",
+    "myCI": "node ci-deploy.js"
   },
   "author": "Adrian Kast",
   "dependencies": {
